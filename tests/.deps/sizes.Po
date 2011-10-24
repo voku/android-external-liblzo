@@ -1,1 +1,83 @@
-# dummy
+tests/sizes.o: tests/sizes.c include/lzo/lzoconf.h config.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/limits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/limits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/limits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/limits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h \
+ include/lzo/lzodefs.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/_types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/_types.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/stdint.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/sysmacros.h
+
+include/lzo/lzoconf.h:
+
+config.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/limits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:
+
+include/lzo/lzodefs.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/stdint.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/sysmacros.h:

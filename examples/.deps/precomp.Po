@@ -1,1 +1,238 @@
-# dummy
+examples/precomp.o: examples/precomp.c include/lzo/lzoconf.h config.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/limits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/limits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/limits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/limits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h \
+ include/lzo/lzodefs.h include/lzo/lzo1x.h include/lzo/lzo1y.h \
+ examples/portab.h examples/portab_a.h src/miniacc.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/_types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/_types.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/stdint.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/stat.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/time.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/time.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/stat.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/endian.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/endian.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/stdlib.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/string.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/malloc.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/alloca.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/strings.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/memory.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/inttypes.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/unistd.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/select.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/signal.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/signal.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/signal.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/siginfo.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/sysconf.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/capability.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/pathconf.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/ctype.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/errno.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/errno.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/errno.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/errno.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/errno-base.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/fcntl.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/fcntl.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/fcntl.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/fcntl.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/dirent.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/setjmp.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/setjmp.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/time.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/utime.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/utime.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/mman.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/mman.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/mman.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/page.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/resource.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/resource.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/resource.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/resource.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/assert.h
+
+include/lzo/lzoconf.h:
+
+config.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/limits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:
+
+include/lzo/lzodefs.h:
+
+include/lzo/lzo1x.h:
+
+include/lzo/lzo1y.h:
+
+examples/portab.h:
+
+examples/portab_a.h:
+
+src/miniacc.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/stdio.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stdarg.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/sys/types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/stdint.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/stat.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/time.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/time.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/stat.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/endian.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/endian.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/stdlib.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/string.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/malloc.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/alloca.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/strings.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/memory.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/inttypes.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/unistd.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/select.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/signal.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/signal.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/signal.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/siginfo.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/siginfo.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/sysconf.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/capability.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/pathconf.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/ctype.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/errno.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/errno.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/errno.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/errno.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/errno-base.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/fcntl.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/fcntl.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/fcntl.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/fcntl.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/dirent.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/setjmp.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/setjmp.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/time.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/utime.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/utime.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/mman.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/mman.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/mman.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/page.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/resource.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/resource.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm/resource.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/asm-generic/resource.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/assert.h:

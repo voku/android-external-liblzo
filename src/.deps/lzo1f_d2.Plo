@@ -1,1 +1,67 @@
-# dummy
+src/lzo1f_d2.lo: src/lzo1f_d2.c src/config1f.h src/lzo_conf.h \
+ include/lzo/lzoconf.h config.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/limits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/limits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/limits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/limits.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h \
+ include/lzo/lzodefs.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/string.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/malloc.h \
+ src/miniacc.h \
+ /home/android/build/android-toolchain/bin/../sysroot/usr/include/assert.h \
+ src/lzo_ptr.h include/lzo/lzo1f.h src/lzo1f_d.ch src/lzo1_d.ch
+
+src/config1f.h:
+
+src/lzo_conf.h:
+
+include/lzo/lzoconf.h:
+
+config.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/limits.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include-fixed/syslimits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/limits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/android/build/android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/stddef.h:
+
+include/lzo/lzodefs.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/string.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/malloc.h:
+
+src/miniacc.h:
+
+/home/android/build/android-toolchain/bin/../sysroot/usr/include/assert.h:
+
+src/lzo_ptr.h:
+
+include/lzo/lzo1f.h:
+
+src/lzo1f_d.ch:
+
+src/lzo1_d.ch:
